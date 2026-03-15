@@ -1,7 +1,7 @@
 {
-  "name": "ssa-my-social-security-browser-automation",
+  "name": "@browser-automation-hub/ssa-my-social-security-browser-automation",
   "version": "1.0.0",
-  "description": "Browser automation for the SSA my Social Security portal — automate benefit verification letters, earnings record review, SSA-1099 retrieval, benefit estimates, and account management.",
+  "description": "Browser automation for SSA my Social Security — automate benefit verification and account management",
   "main": "src/actions.js",
   "scripts": {
     "start": "node examples/basic-login.js",
@@ -17,7 +17,7 @@
     "browser-automation",
     "puppeteer",
     "playwright",
-    "anchorbrowser",
+    "anchor-browser",
     "nodejs"
   ],
   "license": "MIT",
@@ -36,5 +36,8 @@
   "homepage": "https://github.com/Browser-Automation-Hub/ssa-my-social-security-browser-automation#readme",
   "bugs": {
     "url": "https://github.com/Browser-Automation-Hub/ssa-my-social-security-browser-automation/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
